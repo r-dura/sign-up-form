@@ -71,6 +71,7 @@ form {
     border-color: #121212;
     border-radius: 1rem;
     color: white;
+    transition: background-color 0.5s;
 }
 
 .t-box {
@@ -91,4 +92,24 @@ form {
 
 a {
     color: maroon;
+    transition: background-color 0.5s;
+}
+
+input:focus {
+    box-shadow: 2px 5px 5px #fc894d;
+}
+
+.create-login-box button:hover {
+    background-color: rgb(223, 81, 98);
+}
+
+a:hover {
+    color: blue;
+}
+  
+.password-error {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
 }
